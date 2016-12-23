@@ -1,0 +1,14 @@
+package com.pooja.customlistname;
+
+import android.view.View;
+import android.widget.TextView;
+public class myholder
+{
+    TextView name;
+    TextView number;
+    myholder(View v)
+    {
+        name=(TextView)v.findViewById(R.id.text_name);
+        number=(TextView)v.findViewById(R.id.text_number);
+    }
+}
